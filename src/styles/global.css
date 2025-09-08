@@ -1,0 +1,27 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+button {
+  background-color: #0078D4;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

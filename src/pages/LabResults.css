@@ -1,0 +1,31 @@
+.lab-results-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.lab-results-list {
+  list-style: none;
+  padding: 0;
+}
+
+.lab-result-item {
+  background-color: white;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-size: 16px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .lab-results-container {
+    padding: 10px;
+  }
+
+  .lab-result-item {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
