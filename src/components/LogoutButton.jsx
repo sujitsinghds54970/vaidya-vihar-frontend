@@ -1,10 +1,11 @@
-function LogoutButton() {
-  const logout = () => {
-    localStorage.removeItem('token');
-    window.location.href = '/';
-  };
+import React from 'react';
 
-  return <button>Logout</button>;
-}
+const LogoutButton = ({ onLogout }) => {
+  return (
+    <button onClick={onLogout} className="logout-button">
+      Logout
+    </button>
+  );
+};
 
-export default LogoutButton;sujitsingh
+export default LogoutButton;
