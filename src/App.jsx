@@ -4,6 +4,9 @@ import Dashboard from './pages/Dashboard';
 import Appointments from './pages/Appointments';
 import LabResults from './pages/LabResults';
 import ProtectedRoute from './components/ProtectedRoute';
+import Appointments from './components/Appointments';
+import Invoices from './components/Invoices';
+
 
 function App() {
   return (
